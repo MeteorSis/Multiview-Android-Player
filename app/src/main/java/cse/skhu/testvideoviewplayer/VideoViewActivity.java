@@ -25,7 +25,7 @@ public class VideoViewActivity extends AppCompatActivity {
     Boolean video2ndLoaded = false;
 
     String VideoURL1st = "rtsp://192.168.63.25:8554/test";
-    String VideoURL2nd = "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov";
+    String VideoURL2nd = "rtsp://192.168.63.109:8554/test";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +34,6 @@ public class VideoViewActivity extends AppCompatActivity {
 
         videoview1st = (VideoView) findViewById(R.id.VideoView1st);
         videoview2nd = (VideoView) findViewById(R.id.VideoView2nd);
-        // Execute StreamVideo AsyncTask
 
         // Create a progressbar
         pDialog = new ProgressDialog(VideoViewActivity.this);
