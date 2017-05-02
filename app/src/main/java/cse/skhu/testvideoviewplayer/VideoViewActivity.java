@@ -25,7 +25,7 @@ public class VideoViewActivity extends AppCompatActivity {
     Boolean video2ndLoaded = false;
 
     String VideoURL1st = "rtsp://192.168.63.25:8554/test";
-    String VideoURL2nd = "rtsp://192.168.63.109:8554/test";
+    String VideoURL2nd = "rtsp://192.168.63.25:8554/test";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
